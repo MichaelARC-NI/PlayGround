@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Volt Trigger</string>
+    <string name="service_label">Volt Trigger · Gatillos por volumen</string>
+    <string name="accessibility_description">Convierte los botones de volumen en toques o pulsaciones mantenidas sobre puntos configurables de la pantalla. Se usa para jugar con gatillos L/R sin root.</string>
+</resources>

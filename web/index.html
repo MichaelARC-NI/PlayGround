@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="Volt Trigger convierte Vol+ y Vol− en gatillos L/R para Android, sin root.">
+  <title>Volt Trigger · Gatillos L/R por volumen</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#inicio" aria-label="Volt Trigger, inicio">
+        <span class="brand-mark">V</span>
+        <span class="brand-text">
+          <strong>VOLT TRIGGER</strong>
+          <small>Gatillos por volumen</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Secciones">
+        <a href="#caracteristicas">Características</a>
+        <a href="#capturas">Capturas</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a class="nav-download" href="VoltTrigger-debug.apk" download>Descargar APK</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero wrap" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow">
+          <span class="dot"></span>
+          Sin root · Android 8+ · 100% local
+        </div>
+        <h1>Convierte Vol+ y Vol−<br><span>en gatillos L / R.</span></h1>
+        <p class="lede">
+          Juega en horizontal con dos gatillos reales en pantalla. Elige el punto,
+          decide si quieres un toque o mantener pulsado y listo: sin root, sin cuentas
+          y sin enviar nada a Internet.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="VoltTrigger-debug.apk" download>
+            Descargar APK
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14"/></svg>
+          </a>
+          <a class="button ghost" href="#capturas">Ver capturas</a>
+        </div>
+        <ul class="quick-stats" aria-label="Resumen">
+          <li><strong>2</strong><span>gatillos a la vez</span></li>
+          <li><strong>60 ms</strong><span>toque por defecto</span></li>
+          <li><strong>0</strong><span>permisos de red</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-stage" aria-label="Vista previa de Volt Trigger">
+        <div class="stage-glow"></div>
+        <div class="floating-card card-left">
+          <span class="mini-dot cyan"></span>
+          <div><strong>L · Vol+</strong><small>10% · 30%</small></div>
+        </div>
+        <div class="floating-card card-right">
+          <span class="mini-dot orange"></span>
+          <div><strong>R · Vol−</strong><small>90% · 30%</small></div>
+        </div>
+        <div class="phone">
+          <div class="phone-screen">
+            <img id="phone-shot" src="screenshots/01-main.png" alt="Pantalla principal de Volt Trigger" width="1080" height="2340">
+          </div>
+        </div>
+        <div class="stage-badge">
+          <span class="pulse"></span>
+          Mapeo activo
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-strip wrap" id="caracteristicas">
+      <article class="feature">
+        <span class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M7 12h10M12 7v10"/><circle cx="12" cy="12" r="9"/></svg>
+        </span>
+        <h2>Toque o mantener</h2>
+        <p>Un tap corto para disparar o un hold que dura mientras aprietas la tecla.</p>
+      </article>
+      <article class="feature">
+        <span class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 7h16M4 17h16"/><circle cx="8" cy="7" r="2.4"/><circle cx="16" cy="17" r="2.4"/></svg>
+        </span>
+        <h2>L + R a la vez</h2>
+        <p>Mantén los dos gatillos, suelta uno y vuelve a pulsarlo sin perder el otro.</p>
+      </article>
+      <article class="feature">
+        <span class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M5 16V8l4 4 3-6 3 8 4-4v6"/><path d="M4 20h16"/></svg>
+        </span>
+        <h2>Editor sobre el juego</h2>
+        <p>Arrastra L y R hasta el botón real con la burbuja flotante. Se guarda por porcentaje.</p>
+      </article>
+    </section>
+
+    <section class="showcase wrap" id="capturas">
+      <div class="section-head">
+        <div>
+          <span class="kicker">Capturas reales</span>
+          <h2>Así se ve en el teléfono</h2>
+        </div>
+        <p>Interfaz en español, estados claros y un editor pensado para colocarlo encima del juego.</p>
+      </div>
+
+      <div class="showcase-grid">
+        <div class="shot-stage">
+          <div class="shot-phone" id="shot-phone">
+            <img id="shot-image" src="screenshots/01-main.png" alt="Captura de Volt Trigger" width="1080" height="2340">
+          </div>
+          <div class="shot-caption">
+            <span id="shot-label">Pantalla principal</span>
+            <span id="shot-note">Estado, mapeo y gatillos en una sola vista.</span>
+          </div>
+        </div>
+        <div class="shot-controls" role="tablist" aria-label="Capturas de la app">
+          <button class="shot-tab is-active" type="button" role="tab" aria-selected="true"
+            data-src="screenshots/01-main.png" data-label="Pantalla principal"
+            data-note="Estado, mapeo y gatillos en una sola vista.">
+            <span>01</span> Principal
+          </button>
+          <button class="shot-tab" type="button" role="tab" aria-selected="false"
+            data-src="screenshots/05-hold-both.png" data-label="L + R pulsados"
+            data-note="Dos punteros activos a la vez, verificados en pantalla.">
+            <span>02</span> L + R
+          </button>
+          <button class="shot-tab" type="button" role="tab" aria-selected="false"
+            data-src="screenshots/08-editor.png" data-label="Editor de gatillos"
+            data-note="Arrastra los puntos y guarda su posición como porcentaje.">
+            <span>03</span> Editor
+          </button>
+          <button class="shot-tab" type="button" role="tab" aria-selected="false"
+            data-src="screenshots/09-bubble.png" data-label="Burbuja flotante"
+            data-note="Abre el editor sin salir del juego; arrástrala si estorba.">
+            <span>04</span> Burbuja
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="how wrap" id="como-funciona">
+      <div class="section-head">
+        <div>
+          <span class="kicker">Sin trucos</span>
+          <h2>De volumen a gatillo en 3 pasos</h2>
+        </div>
+      </div>
+      <ol class="steps">
+        <li>
+          <span class="step-number">1</span>
+          <h3>Activa accesibilidad</h3>
+          <p>El servicio solo intercepta Vol+ y Vol− y envía los toques. No lee el contenido de otras apps.</p>
+        </li>
+        <li>
+          <span class="step-number">2</span>
+          <h3>Coloca L y R</h3>
+          <p>Abre el editor desde la app o la burbuja y arrastra cada gatillo al botón del juego.</p>
+        </li>
+        <li>
+          <span class="step-number">3</span>
+          <h3>Elige el modo</h3>
+          <p>Toque para un disparo corto o Mantener para dejar el dedo virtual pulsado.</p>
+        </li>
+      </ol>
+      <div class="note">
+        <strong>Nota honesta:</strong> algunos juegos bloquean los gestos de accesibilidad y Android
+        puede cancelar la inyección si tocas la pantalla al mismo tiempo. La app no usa root ni
+        modifica el juego. Respeta las normas de cada juego.
+      </div>
+    </section>
+
+    <section class="download wrap">
+      <div>
+        <span class="kicker">Listo para probar</span>
+        <h2>Volt Trigger 1.0.0</h2>
+        <p>APK de depuración para Android 8.0 o superior. Activa el servicio de accesibilidad al abrirlo.</p>
+      </div>
+      <a class="button primary" href="VoltTrigger-debug.apk" download>
+        Descargar APK
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14"/></svg>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <span>Volt Trigger · Proyecto independiente. No afiliado a Xiaomi ni Redmi.</span>
+      <a href="https://github.com/MichaelARC-NI/PlayGround" rel="noreferrer">Código en GitHub</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
